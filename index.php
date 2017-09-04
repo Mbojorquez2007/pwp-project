@@ -31,11 +31,11 @@
     <div class="row">
         <div class="col-sm-4">
             <p><strong>Inspire</strong></p><br>
-            <img src="" alt="">
+            <img src="" alt="Inspire">
         </div>
         <div class="col-sm-4">
             <p><strong>Explore</strong></p><br>
-            <img src="" alt="">
+            <img src="" alt="Explore">
         </div>
         <div class="col-sm-4">
             <p><strong>intoxicate</strong></p><br>
