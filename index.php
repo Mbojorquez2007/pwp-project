@@ -23,6 +23,26 @@
         </ul>
     </div>
 </nav>
+<div class="container text-center">
+    <h3>D&M Development</h3>
+    <p><em>We love our clients</em></p>
+    <p>We want to help you create the best website ever.</p>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <p><strong>Inspire</strong></p><br>
+            <img src="" alt="">
+        </div>
+        <div class="col-sm-4">
+            <p><strong>Explore</strong></p><br>
+            <img src="" alt="">
+        </div>
+        <div class="col-sm-4">
+            <p><strong>intoxicate</strong></p><br>
+            <img src="/img/above-adventure-aerial-air.jpg" alt="intoxicate">
+        </div>
+    </div>
+</div>
 
 
 
