@@ -5,70 +5,11 @@
     <title>pwp-project</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        .container {
-            padding: 80px 120px;
-        }
-        .person {
-            border: 10px solid transparent;
-            margin-bottom: 25px;
-            width: 80%;
-            height: 80%;
-            opacity: 0.7;
-        }
-        .person:hover {
-            border-color: #f1f1f1;
-        }
-         div.gallery {
-             border: 1px solid #ccc;
-         }
 
-        div.gallery:hover {
-            border: 1px solid #777;
-        }
-
-        div.gallery img {
-            width: 100%;
-            height: auto;
-        }
-
-        div.desc {
-            padding: 15px;
-            text-align: center;
-        }
-
-        * {
-            box-sizing: border-box;
-        }
-
-        .responsive {
-            padding: 0 6px;
-            float: left;
-            width: 24.99999%;
-        }
-
-        @media only screen and (max-width: 700px){
-            .responsive {
-                width: 49.99999%;
-                margin: 6px 0;
-            }
-        }
-
-        @media only screen and (max-width: 500px){
-            .responsive {
-                width: 100%;
-            }
-        }
-
-        .clearfix:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-    </style>
 </head>
 <body>
 
@@ -101,7 +42,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="" alt="Explore">
+                <img src="img/above-adventure-aerial-air.jpg" alt="Explore">
                 <div class="carousel-caption">
                     <h3>Explore</h3>
                     <p>Explore beyond your horizons.</p>
@@ -117,7 +58,7 @@
             </div>
 
             <div class="item">
-                <img src="img/" alt="Discover">
+                <img src="img/pexels-photo-561462.jpeg" alt="Discover">
                 <div class="carousel-caption">
                     <h3>Discover</h3>
                     <p>Discover your best.</p>
@@ -141,15 +82,15 @@
             <div class="col-sm-4">
                 <p>mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
                 </p>
-                <img src="" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p>Practice active listening, empathy, patience and consistency, adaptability, clear communication.</p>
-                <img src="" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/pexels-photo-235495.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p>Creative, unique, positive.</p>
-                <img src="" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/woman-happiness-sunrise-silhouette-40192 (2).jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
         </div>
     </div>
