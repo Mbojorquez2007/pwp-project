@@ -181,6 +181,9 @@
             </div>
         </div>
     </div>
+    <footer class="container-fluid bg-4 text-center">
+        <p>D&M Deveploment <a href="https://">www.mbojorquez.net</a></p>
+    </footer>
 
 </body>
 </html>
