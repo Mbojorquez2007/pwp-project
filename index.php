@@ -109,7 +109,7 @@
             </div>
 
             <div class="item">
-                <img src="img/pexels-photo-54204.jpeg" alt="Inspire">
+                <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" alt="Inspire">
                 <div class="carousel-caption">
                     <h3>Inspire</h3>
                     <p>Inspire the people around you.</p>
@@ -135,3 +135,24 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+    <div class="container-fluid bg-3 text-center">
+        <h3>About us</h3><br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
+                </p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Practice active listening, empathy, patience and consistency, adaptability, clear communication.</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-4">
+                <p>Creative, unique, positive.</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
