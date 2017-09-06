@@ -42,7 +42,7 @@
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="img/above-adventure-aerial-air.jpg" alt="Explore">
+                <img src="img/pexels-photo-443356.jpeg" alt="Explore">
                 <div class="carousel-caption">
                     <h3>Explore</h3>
                     <p>Explore beyond your horizons.</p>
@@ -50,7 +50,7 @@
             </div>
 
             <div class="item">
-                <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" alt="Inspire">
+                <img src="img/pexels-photo-414564.jpeg" alt="Inspire">
                 <div class="carousel-caption">
                     <h3>Inspire</h3>
                     <p>Inspire the people around you.</p>
@@ -58,7 +58,7 @@
             </div>
 
             <div class="item">
-                <img src="img/pexels-photo-561462.jpeg" alt="Discover">
+                <img src="img/pexels-photo-398532.jpeg" alt="Discover">
                 <div class="carousel-caption">
                     <h3>Discover</h3>
                     <p>Discover your best.</p>
@@ -80,17 +80,18 @@
         <h3>About us</h3><br>
         <div class="row">
             <div class="col-sm-4">
-                <p>mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
+                <p> WE are Skilled in mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
                 </p>
                 <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>Practice active listening, empathy, patience and consistency, adaptability, clear communication.</p>
-                <img src="img/pexels-photo-235495.jpeg" class="img-responsive" style="width:100%" alt="Image">
+                <p>We practice active listening, empathy, patience and consistency, adaptability, clear communication.</p>
+                <img src="img/sunset-hands-love-woman.jpg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>Creative, unique, positive.</p>
-                <img src="img/woman-happiness-sunrise-silhouette-40192 (2).jpeg" class="img-responsive" style="width:100%" alt="Image">
+                <p>WE help you be Creative,and unique,
+                    WE believe in positivity.</p>
+                <img src="img/pexels-photo-355948.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
         </div>
     </div>
