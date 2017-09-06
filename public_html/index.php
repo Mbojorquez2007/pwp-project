@@ -19,20 +19,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
     <!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+
+    <!-- jQuery Form, Additional Methods, Validate -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+
+    <!-- Your JavaScript Form Validator -->
+    <script src="js/form-validate.js"></script>
+
+    <!-- Google reCAPTCHA -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!--empty area for form error/success output-->
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="output-area"></div>
+        </div>
+    </div>
 </head>
 <body>
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">D&M DEVELOPMENT</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Logo</a>
         </div>
-        <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">ABOUT US</a></li>
-            <li><a href="#">CONTACT US</a></li>
-        </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#myPage">HOME</a></li>
+                <li><a href="#about us">ABOUT US</a></li>
+                <li><a href="#contact us">CONTACT US</a></li>
+
+
+            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+            </ul>
+        </div>
     </div>
 </nav>
+
 
 <div id="home" class="container text-center">
     <h2>D&M Development</h2>
@@ -103,6 +134,8 @@
             </div>
         </>
     </div>
+    <form id="contact-form" action="php/mailer.php" method="post">
+        <div class="form-group">
         <div id="CONTACT US" class="container">
         <h3 class="text-center">Contact Us</h3>
         <p class="text-center"><em>We love our clients!</em></p>
@@ -126,11 +159,25 @@
                 <div class="row">
                     <div class="col-md-12 form-group">
                         <button class="btn pull-right" type="submit">Send</button>
-                    </div>
-                </div>
-            </div>
+                        <!-- reCAPTCHA -->
+                        <div class="g-recaptcha" data-sitekey="6Lelqy8UAAAAAFHKJqIl3yLd1bSki2bMFNMQ1rNJ"></div>
+
+                        <button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+                        <button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+    </form>
+
+    <!--empty area for form error/success output-->
+    <div class="row">
+        <div class="col-xs-12">
+            <div id="output-area"></div>
         </div>
     </div>
+</div>
+</div>
+
+
+
+
     <footer class="container-fluid bg-4 text-center">
         <p>D&M Deveploment <a href="https://">www.mbojorquez.net</a></p>
     </footer>
