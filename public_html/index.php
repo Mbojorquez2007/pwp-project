@@ -3,31 +3,38 @@
 <head>
 
     <title>pwp-project</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
     <link type="text/css" href="css/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
+    <!-- HTML5 shiv and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
 <body>
-
-
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <a class="navbar-brand" href="#">D&M Development</a>
+            <a class="navbar-brand" href="#">D&M DEVELOPMENT</a>
         </div>
         <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT US</a></li>
         </ul>
     </div>
 </nav>
-<div class="container text-center">
+
+<div id="home" class="container text-center">
     <h2>D&M Development</h2>
     <p><em>We love our clients</em></p>
     <p>We want to help you create the best website ever.</p>
@@ -78,25 +85,26 @@
     </div>
     <div class="container-fluid bg-3 text-center">
         <h3>About us</h3><br>
-        <div class="row">
+        <div id="ABOUT US" class="row">
             <div class="col-sm-4">
                 <p> WE are Skilled in mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
                 </p>
                 <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>We practice active listening, empathy, patience and consistency, adaptability, clear communication.</p>
+                <p>We practice active listening, empathy, and patience. We believe in consistency, adaptability, and clear communication.</p>
                 <img src="img/sunset-hands-love-woman.jpg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
-                <p>WE help you be Creative,and unique,
-                    WE believe in positivity.</p>
+                <p>We help you be Creative,and unique.
+                    We believe in positivity, and can help you grow your business to the best.
+                    </p>
                 <img src="img/pexels-photo-355948.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
-        </div>
+        </>
     </div>
-    <div class="container">
-        <h3 class="text-center">Contact</h3>
+        <div id="CONTACT US" class="container">
+        <h3 class="text-center">Contact Us</h3>
         <p class="text-center"><em>We love our clients!</em></p>
         <div class="row test">
             <div class="col-md-4">
