@@ -41,29 +41,19 @@
     </div>
 </head>
 <body>
-<nav class="navbar navbar-default">
+
+<nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
             <a class="navbar-brand" href="#">D&M Development</a>
         </div>
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#myPage">HOME</a></li>
-                <li><a href="#about us">ABOUT US</a></li>
-                <li><a href="#contact us">CONTACT US</a></li>
-
-
-            <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-            </ul>
-        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
     </div>
 </nav>
-
 
 <div id="home" class="container text-center">
     <h2>D&M Development</h2>
@@ -129,55 +119,47 @@
             <div class="col-sm-4">
                 <p>We help you be Creative,and unique.
                     We believe in positivity, and can help you grow your business to the best.
-                    </p>
+                </p>
                 <img src="img/pexels-photo-355948.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
         </>
     </div>
-    <form id="contact-form" action="php/mailer.php" method="post" novalidate>
-        <div class="form-group">
-            <label for="name">Name</label>
-            <div class="input-group">
-                <div class="input-group-addon">
-                    <i class="fa fa-user"></i>
-                </div>
-                <input class="form-control" type="text" name="name" id="name" placeholder="Your Name">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="email">Email</label>
-            <div class="input-group">
-                <div class="input-group-addon">
-                    <i class="fa fa-envelope"></i>
-                </div>
-                <input class="form-control" type="email" name="email" id="email" placeholder="Your Email">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="subject">Subject</label>
-            <div class="input-group">
-                <div class="input-group-addon">
-                    <i class="fa fa-pencil"></i>
-                </div>
-                <input class="form-control" type="text" name="subject" id="subject" placeholder="Subject">
-            </div>
-        </div>
-        <div class="form-group">
-            <label for="message">Message</label>
-            <div class="input-group">
-                <div class="input-group-addon">
-                    <i class="fa fa-comment"></i>
-                </div>
-                <textarea name="message" rows="5" id="message" class="form-control" placeholder="Your Message (2000 charaters max)"></textarea>
-            </div>
-        </div>
+</div>
 
-        <!-- google reCAPTCHA -->
+    <form id="contact-form" action="php/mailer.php" method="post" novalidate>
+        <div class="container">
+            <h3 class="text-center">Contact</h3>
+            <p class="text-center"><em>We love our fans!</em></p>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <p> Drop us a note.</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span>Albuquerque,NM</p>
+                    <p><span class="glyphicon glyphicon-phone"></span>Phone:5053121330</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span>Email:mbojorquez2007@gmail.com</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                        </div>
+
+
+
+                        <!-- google reCAPTCHA -->
         <div class="g-recaptcha" data-sitekey="6LfqtS8UAAAAADuRz54TOH_rztGscOm7FwuyINOz"></div>
 
         <button class="btn btn-warning" type="reset">Reset</button>
         <button class="btn btn-success" type="submit">Submit</button>
-    </form>
     <!-- END CONTACT FORM-->
 
     <!-- Form error/success message area -->
