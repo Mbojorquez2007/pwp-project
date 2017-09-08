@@ -32,16 +32,7 @@
 
     <!-- Google reCAPTCHA -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-
-    <!--empty area for form error/success output-->
-    <div class="row">
-        <div class="col-xs-12">
-            <div id="output-area"></div>
-        </div>
-    </div>
-</head>
 <body>
-
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
         <div class="navbar-header">
@@ -78,7 +69,7 @@
             </div>
 
             <div class="item">
-                <img src="img/pexels-photo-414564.jpeg" alt="Inspire">
+                <img src="img/pexels-photo-561462.jpeg" alt="Inspire">
                 <div class="carousel-caption">
                     <h3>Inspire</h3>
                     <p>Inspire the people around you.</p>
@@ -108,9 +99,9 @@
         <h3>About us</h3><br>
         <div id="ABOUT US" class="row">
             <div class="col-sm-4">
-                <p> WE are Skilled in mySQL & Data Design, PHP,
-                        HTML, CSS, UI/UX,
-                    JavaScript, Angular & Node
+                <p> WE are Skilled in mySQL & Data Design,
+                    PHP,HTML, CSS, UI/UX,JavaScript, Angular & Node
+                    We are super excited to help you on your journey to success.
                 </p>
                 <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
@@ -170,8 +161,6 @@
                                 <div id="output-area"></div>
                             </div>
                         </div>
-                        </head>
-                        <body>
     <div id="output-area"></div>
 <footer>
     <div class="container">
