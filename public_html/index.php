@@ -108,13 +108,15 @@
         <h3>About us</h3><br>
         <div id="ABOUT US" class="row">
             <div class="col-sm-4">
-                <p> WE are Skilled in mySQL & Data Design, PHP, HTML, CSS, UI/UX, JavaScript, Angular & Node
+                <p> WE are Skilled in mySQL & Data Design, PHP,
+                        HTML, CSS, UI/UX,
+                    JavaScript, Angular & Node
                 </p>
                 <img src="img/twitter-facebook-together-exchange-of-information-147413.jpeg" class="img-responsive" style="width:100%" alt="Image">
             </div>
             <div class="col-sm-4">
                 <p>We practice active listening, empathy, and patience. We believe in consistency, adaptability, and clear communication.</p>
-                <img src="img/sunset-hands-love-woman.jpg" class="img-responsive" style="width:100%" alt="Image">
+                <img src="img/sunset-hands-love-woman.jpg" class="img-responsive" style="width:100%" alt="Sunset">
             </div>
             <div class="col-sm-4">
                 <p>We help you be Creative,and unique.
@@ -162,14 +164,15 @@
         <button class="btn btn-success" type="submit">Submit</button>
     <!-- END CONTACT FORM-->
 
-    <!-- Form error/success message area -->
+    <!--empty area for form error/success output-->
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <div id="output-area"></div>
+                            </div>
+                        </div>
+                        </head>
+                        <body>
     <div id="output-area"></div>
-
-</div><!-- /.col-sm-6 -->
-</div><!-- /.row -->
-</main>
-</div>
-
 <footer>
     <div class="container">
         <a href="https://mbojorquez2007@gmail.com"</a>
